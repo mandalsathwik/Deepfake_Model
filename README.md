@@ -41,21 +41,7 @@ pinned: false
 *   **Multi-Branch Detection**: Combines RGB, Frequency (FFT), Patch analysis, and Vision Transformers.
 *   **Defense-in-Depth**: Automatically detects C2PA credentials and invisible watermarks (Stable Diffusion).
 *   **Local-First**: No data ever leaves your computer.
-*   **History Tracking**: Keep a local log of your scans.
-
-## 💻 Quick Install
-
-```bash
-git clone https://github.com/your-username/DeepGuard.git
-cd DeepGuard/backend
-python -m venv venv
-source venv/bin/activate
-pip install -r requirements_web.txt
-python app.py
-```
-
-Open `http://localhost:7860` in your browser.
-
+*   **History Tracking**: Keep a local log of your s
 ---
 
 For full documentation, please visit the **[Documentation Folder](Documentation/)**.
